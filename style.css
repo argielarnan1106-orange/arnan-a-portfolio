@@ -21,7 +21,6 @@ section {
     background: url("download (2).jpg") center/cover no-repeat;
 }
 
-/* REUSABLE */
 .section-title {
     text-align: center;
     font-size: 48px;
@@ -39,7 +38,6 @@ section {
     transform: translateY(0);
 }
 
-/* NAVBAR */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -80,7 +78,6 @@ section {
     color: #6a7bff;
 }
 
-/* HERO */
 .homey {
     display: flex;
     justify-content: space-between;
@@ -163,7 +160,6 @@ section {
     transform: translateY(-5px);
 }
 
-/* HERO IMAGE */
 .homey-image {
     text-align: center;
 }
@@ -238,7 +234,6 @@ section {
     }
 }
 
-/* GLASS EFFECT */
 .about-container,
 .skills-box,
 .project-container,
@@ -249,7 +244,6 @@ section {
     backdrop-filter: blur(10px);
 }
 
-/* ABOUT */
 .about-container {
     display: flex;
     align-items: center;
@@ -296,7 +290,6 @@ section {
     min-width: 70px;
 }
 
-/* SKILLS */
 .skills-container {
     display: flex;
     gap: 30px;
@@ -355,7 +348,6 @@ section {
     width: 100%;
 }
 
-/* PROJECT */
 .project-container {
     display: flex;
     gap: 50px;
@@ -412,7 +404,6 @@ section {
     margin-bottom: 15px;
 }
 
-/* CONTACT */
 .contact-container {
     display: flex;
     gap: 50px;
@@ -494,7 +485,6 @@ section {
     transform: scale(1.05);
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
 
     .navbar {
