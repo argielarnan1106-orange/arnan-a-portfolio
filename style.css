@@ -140,12 +140,12 @@ section {
 }
 .socials i,
 .contact-socials i {
+    color: white;
     width: 45px;
     height: 45px;
 
     background: black;
     border-radius: 50%;
-    color: white;
 
     display: flex;
     align-items: center;
@@ -154,10 +154,6 @@ section {
     cursor: pointer;
 
     transition: 0.3s ease;
-}
-.socials a:visited,
-.contact-socials a:visited {
-    color: white;
 }
 
 .socials i:hover {
