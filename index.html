@@ -5,18 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Argiel Portfolio</title>
 
-    <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- NAVBAR -->
     <header>
         <nav class="navbar">
             <div class="logo">website</div>
@@ -32,10 +28,8 @@
     </header>
 
 
-    <!-- HERO SECTION -->
     <section class="homey" id="home">
 
-        <!-- LEFT -->
         <div class="homey-text">
             <h1>Hi, I’m Argiel</h1>
             <h3>Back-end Developer</h3>
@@ -57,7 +51,6 @@
         </div>
 
 
-        <!-- RIGHT -->
         <div class="homey-image">
 
             <div class="circle">
@@ -73,19 +66,16 @@
     </section>
 
 
-    <!-- ABOUT SECTION -->
     <section class="about" id="about">
 
         <h2 class="section-title">About Me</h2>
 
         <div class="about-container reveal">
 
-            <!-- LEFT IMAGE -->
             <div class="about-image">
                 <img src="cc0ae5b3-3fee-43ef-98b8-bfa7efcd0231-removebg-preview.png" alt="about image">
             </div>
 
-            <!-- RIGHT CONTENT -->
             <div class="about-content">
 
                 <p>
@@ -98,7 +88,6 @@
                     software developer.”
                 </p>
 
-                <!-- EDUCATION -->
                 <div class="education">
 
                     <h3>Education</h3>
@@ -127,14 +116,12 @@
     </section>
 
 
-    <!-- SKILLS SECTION -->
     <section class="skills" id="skills">
 
         <h2 class="section-title">Skills</h2>
 
         <div class="skills-container reveal">
 
-            <!-- BOX 1 -->
             <div class="skills-box">
 
                 <h3>Programming & Development</h3>
@@ -161,7 +148,6 @@
             </div>
 
 
-            <!-- BOX 2 -->
             <div class="skills-box">
 
                 <h3>Back-End & Tools</h3>
@@ -178,7 +164,6 @@
             </div>
 
 
-            <!-- BOX 3 -->
             <div class="skills-box">
 
                 <h3>Other Skills</h3>
@@ -209,14 +194,12 @@
     </section>
 
 
-    <!-- PROJECT SECTION -->
     <section class="projects" id="projects">
 
         <h2 class="section-title">Projects</h2>
 
         <div class="project-container reveal">
 
-            <!-- LEFT -->
             <div class="project-left">
 
                 <div class="project-image">
@@ -228,7 +211,6 @@
             </div>
 
 
-            <!-- RIGHT -->
             <div class="project-right">
 
                 <h3>Description</h3>
@@ -254,14 +236,12 @@
     </section>
 
 
-    <!-- CONTACT SECTION -->
     <section class="contact" id="contact">
 
         <h2 class="section-title">Contact</h2>
 
         <div class="contact-container reveal">
 
-            <!-- LEFT -->
             <div class="contact-left">
 
                 <h3>
@@ -285,7 +265,6 @@
             </div>
 
 
-            <!-- RIGHT -->
             <div class="contact-right">
 
                 <h3>Send a message:</h3>
@@ -309,7 +288,6 @@
     </section>
 
 
-    <!-- SCROLL REVEAL SCRIPT -->
     <script>
 
         const reveals = document.querySelectorAll('.reveal');
@@ -338,15 +316,12 @@
     const form = document.querySelector("form");
 
     form.addEventListener("submit", function(event) {
-        event.preventDefault(); // stops page reload
+        event.preventDefault();
 
-        // optional alert
         alert("Message submitted!");
 
-        // go back to home section
         window.location.href = "#home";
 
-        // clear form
         form.reset();
     });
 </script>
