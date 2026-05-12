@@ -155,6 +155,10 @@ section {
 
     transition: 0.3s ease;
 }
+.socials a:visited,
+.contact-socials a:visited {
+    color: white;
+}
 
 .socials i:hover {
     background: #4a5cff;
