@@ -111,16 +111,16 @@ section {
 }
 
 .btn {
+    display: inline-block;
+
     padding: 14px 28px;
-    border: none;
     border-radius: 12px;
 
     background: linear-gradient(135deg, #4a5cff, #6a7bff);
 
     color: white;
+    text-decoration: none;
     font-weight: 600;
-
-    cursor: pointer;
 
     transition: 0.3s ease;
 
@@ -137,10 +137,11 @@ section {
     gap: 15px;
 }
 
+}
 .socials i,
 .contact-socials i {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
 
     background: black;
     border-radius: 50%;
@@ -152,6 +153,11 @@ section {
     cursor: pointer;
 
     transition: 0.3s ease;
+}
+
+.socials i:hover {
+    background: #4a5cff;
+    transform: translateY(-5px);
 }
 
 .socials i:hover,
